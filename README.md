@@ -1,6 +1,6 @@
 # Visualize_Op
 Visualize the tensorflow operation, including f(x), and df(x)/dx   
-Just Support the 1D Tensor!
+Just Support the 1D Tensor
 ## Requirement 
 - Python 2.7
 - Tensorflow
@@ -20,11 +20,11 @@ min = -10
 ```
 | tf.identity | tf.sigmoid | tf.nn.relu | tf.tanh |
 |---|---|---|---|
-|   |   |   |   |
+| ![](https://github.com/andrewliao11/Visualize_Op/blob/master/img/tf.identity.png?raw=true) | ![](https://github.com/andrewliao11/Visualize_Op/blob/master/img/tf.sigmoid.png?raw=true) | ![](https://github.com/andrewliao11/Visualize_Op/blob/master/img/tf.nn.relu.png?raw=true) | ![](https://github.com/andrewliao11/Visualize_Op/blob/master/img/tf.tanh.png?raw=true) |
 
-| tf.cos | tf.sin | tf.floor | tf.ceil |
+| tf.cos | tf.sin | tf.exp | tf.sqrt |
 |---|---|---|---|
-|   |   |   |   |
+| ![](https://github.com/andrewliao11/Visualize_Op/blob/master/img/tf.cos.png?raw=true) | ![](https://github.com/andrewliao11/Visualize_Op/blob/master/img/tf.sin.png?raw=true) | ![](https://github.com/andrewliao11/Visualize_Op/blob/master/img/tf.exp.png?raw=true) | ![](https://github.com/andrewliao11/Visualize_Op/blob/master/img/tf.sqrt.png?raw=true) |
 
 
 
