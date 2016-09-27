@@ -7,7 +7,7 @@ Just Support the 1D Tensor
 - seaborn (for beautiful plot)
 
 ## Motivation
-
+The auto-grad properties make Tensorflow really mode approachable to a newbie in deep learning/machine learning. However, many people use the operation without knowing the characteristic of those function. So, I develop a simple project to show the ```f(x)``` and ```df(x)/dx```, which aims to help everyone to know those function well.
 
 ## Usage
 The code is used to help you visualize some "**strange functions**", and you can further analyze its gradient   
@@ -18,6 +18,7 @@ dim = 100
 max = 10
 min = -10
 ```
+## Example
 | tf.identity | tf.sigmoid | tf.nn.relu | tf.tanh |
 |---|---|---|---|
 | ![](https://github.com/andrewliao11/Visualize_Op/blob/master/img/tf.identity.png?raw=true) | ![](https://github.com/andrewliao11/Visualize_Op/blob/master/img/tf.sigmoid.png?raw=true) | ![](https://github.com/andrewliao11/Visualize_Op/blob/master/img/tf.nn.relu.png?raw=true) | ![](https://github.com/andrewliao11/Visualize_Op/blob/master/img/tf.tanh.png?raw=true) |
