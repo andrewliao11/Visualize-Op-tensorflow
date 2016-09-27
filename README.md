@@ -4,7 +4,7 @@ Just Support the 1D Tensor
 ## Requirement 
 - Python 2.7
 - Tensorflow
-- seaborn (for beatiful plot)
+- seaborn (for beautiful plot)
 
 ## Motivation
 
